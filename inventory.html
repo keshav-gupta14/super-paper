@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory - Super Paper Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="navbar-content">
+                <div class="logo">
+                    <a href="index.html">Super Paper Products</a>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="inventory.html" class="active">Inventory</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="about.html">About Us</a>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <section class="inventory-section">
+                <h1>Our Paper Products</h1>
+                <p class="inventory-description">
+                    Browse our extensive collection of high-quality paper products available for wholesale and retail purchase.
+                    Contact us for pricing and bulk orders.
+                </p>
+                
+                <p id="loading-message" class="message">Loading products...</p>
+                <p id="error-message" class="message error hidden"></p>
+                
+                <div id="products-grid" class="products-grid">
+                    <!-- Products will be loaded from JavaScript -->
+                </div>
+            </section>
+            
+            <section class="testimonials">
+                <h2>What Our Customers Say</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"Super Paper Products always delivers on time and with great quality."</p>
+                        <p class="testimonial-author">- Madhav</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"Their customer service is exceptional and very responsive."</p>
+                        <p class="testimonial-author">- Keshav</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"I highly recommend them for all your paper needs."</p>
+                        <p class="testimonial-author">- Manisha</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Super Paper Products. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
