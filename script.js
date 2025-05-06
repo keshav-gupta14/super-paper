@@ -9,7 +9,7 @@ const productData = [
     { id: 7, name: "White/colour ptg", image: "https://m.media-amazon.com/images/I/51OSe8iZ5SL.jpg" },
     { id: 8, name: "Sunshine", image: "https://5.imimg.com/data5/SELLER/Default/2023/9/340869948/GW/KX/BR/26647012/sunshine-a4-paper-sheet.jpg" },
     { id: 9, name: "Maplitho", image: "https://5.imimg.com/data5/YR/OJ/SC/SELLER-101599188/maplitho-paper-500x500.jpg" },
-    { id: 10, name: "Butter", image: "https://m.media-amazon.com/images/I/412R2PmTjJL.jpg" },
+    { id: 10, name: "Butter Paper", image: "https://m.media-amazon.com/images/I/412R2PmTjJL.jpg" },
     { id: 11, name: "A4 Paper", image: "https://i.etsystatic.com/19232050/r/il/6233a6/3092080944/il_570xN.3092080944_mra0.jpg" },
     { id: 12, name: "Ivory board", image: "https://m.media-amazon.com/images/I/71pKGtUFTEL.jpg" },
     { id: 13, name: "Gum Sheet", image: "https://5.imimg.com/data5/FU/SH/EE/SELLER-42159720/20x30-inch-chromo-gum-sheet-500x500.jpg" },
